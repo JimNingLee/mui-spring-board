@@ -1,17 +1,19 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-# https://maven.apache.org/wrapper/#usage-without-binary-jar
-.mvn/wrapper/maven-wrapper.jar
+# --- Node / React ---
+frontend/node_modules/
+frontend/.env
+frontend/dist/
 
-# Eclipse m2e generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+# --- Java / Maven / Spring Boot ---
+backend/target/
+backend/.mvn/
+backend/mvnw*
+backend/.env
+
+# --- IDE (IntelliJ / VSCode 등) ---
+.idea/
+*.iml
+.vscode/
+
+# --- OS 공통 ---
+.DS_Store
+Thumbs.db
